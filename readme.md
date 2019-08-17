@@ -3,6 +3,7 @@ WebComponent for creating customisable boolean input elements.
 
 ## Preview:
 ![preview1](./preview/01.png)
+
 ![preview2](./preview/02.png)
 
 ## Attribute:
@@ -26,8 +27,8 @@ Results in: ![preview3](./preview/04.png)
 
 ```HTML
 <input-boolean>
-	<span slot="false-opt"></span>
-	<span slot="true-opt"></span>
+	<span slot="false-opt">False</span>
+	<span slot="true-opt">True</span>
 </input-boolean>
 ```
 Results in: ![preview3](./preview/05.png)
