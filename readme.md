@@ -10,9 +10,11 @@ WebComponent for creating customisable boolean input elements.
 ```true``` : If present value is set to true (i.e. the right value is choosen)
 
 ## Named slots:
-The left option: ```false-opt```
-
+The left option: ```false-opt```\
 The right option: ```true-opt```
+
+## Events:
+Emits ```change``` event when the value is changed.
 
 ## Custom CSS
 ```--svg-color``` : SVG fill color (eg. #000)\
