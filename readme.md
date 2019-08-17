@@ -14,6 +14,14 @@ The left option: ```false-opt```
 
 The right option: ```true-opt```
 
+## Custom CSS
+```--svg-color``` : SVG fill color (eg. #000)\
+```--button-radius``` : Button border radius (eg. 1em)\
+```--button-border``` : Button border value (eg. 1px solid)\
+```--button-gap``` : Gap between left option, button and right option (eg. 0.5em)\
+```--button-color``` : Color of the button (eg. #000)\
+```--button-background``` : Background color of the button (eg. rgba(0, 0, 0, 0.1))
+
 ## Usage:
 ```HTML
 <input-boolean></input-boolean>
